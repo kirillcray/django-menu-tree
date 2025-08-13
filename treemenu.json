@@ -1,0 +1,396 @@
+[
+    {
+        "model": "treemenu.menu",
+        "pk": 1,
+        "fields": {
+            "name": "Меню 1"
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 9,
+        "fields": {
+            "menu": 1,
+            "title": "Пункт 1",
+            "url": "/pun1",
+            "parent": null
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 10,
+        "fields": {
+            "menu": 1,
+            "title": "Пункт 2",
+            "url": "/pun2",
+            "parent": null
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 11,
+        "fields": {
+            "menu": 1,
+            "title": "Пункт 3",
+            "url": "/pun3",
+            "parent": null
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 12,
+        "fields": {
+            "menu": 1,
+            "title": "Подпункт 1.1",
+            "url": "/pun11",
+            "parent": 9
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 13,
+        "fields": {
+            "menu": 1,
+            "title": "Подпункт 1.2",
+            "url": "/pun12",
+            "parent": 9
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 14,
+        "fields": {
+            "menu": 1,
+            "title": "Подпункт 1.3",
+            "url": "/pun13",
+            "parent": 9
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 15,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.1.1",
+            "url": "/pun111",
+            "parent": 12
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 16,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.1.2",
+            "url": "/pun112",
+            "parent": 12
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 17,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.2.1",
+            "url": "/pun121",
+            "parent": 13
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 18,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.2.2",
+            "url": "/pun122",
+            "parent": 13
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 19,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.3.1",
+            "url": "/pun131",
+            "parent": 14
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 20,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.3.2",
+            "url": "/pun132",
+            "parent": 14
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 21,
+        "fields": {
+            "menu": 1,
+            "title": "Подпункт 2.1",
+            "url": "/pun21",
+            "parent": 10
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 22,
+        "fields": {
+            "menu": 1,
+            "title": "Подпункт 2.2",
+            "url": "/pun22",
+            "parent": 10
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 23,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 2.1.1",
+            "url": "/pun211",
+            "parent": 21
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 24,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 2.1.2",
+            "url": "/pun212",
+            "parent": 21
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 25,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 2.2.1",
+            "url": "/pun221",
+            "parent": 22
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 26,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 2.2.2",
+            "url": "/pun222",
+            "parent": 22
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 27,
+        "fields": {
+            "menu": 1,
+            "title": "Подпункт 3.1",
+            "url": "/pun31",
+            "parent": 11
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 28,
+        "fields": {
+            "menu": 1,
+            "title": "Подпункт 3.2",
+            "url": "/pun32",
+            "parent": 11
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 29,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 3.1.1",
+            "url": "/pun311",
+            "parent": 27
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 30,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 3.1.2",
+            "url": "/pun312",
+            "parent": 27
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 31,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 3.2.1",
+            "url": "/pun321",
+            "parent": 28
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 32,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 3.2.2",
+            "url": "/pun322",
+            "parent": 28
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 33,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.1.3",
+            "url": "/pun113",
+            "parent": 12
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 34,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.1.4",
+            "url": "/pun114",
+            "parent": 12
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 35,
+        "fields": {
+            "menu": 1,
+            "title": "Подпункт 1.4",
+            "url": "/pun14",
+            "parent": 9
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 36,
+        "fields": {
+            "menu": 1,
+            "title": "Подпункт 1.5",
+            "url": "/pun15",
+            "parent": 9
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 37,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.4.1",
+            "url": "/pun141",
+            "parent": 35
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 38,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.4.2",
+            "url": "/pun142",
+            "parent": 35
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 39,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.5.1",
+            "url": "/pun151",
+            "parent": 36
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 40,
+        "fields": {
+            "menu": 1,
+            "title": "Подподпункт 1.5.2",
+            "url": "/pun152",
+            "parent": 36
+        }
+    },
+    {
+        "model": "treemenu.menu",
+        "pk": 2,
+        "fields": {
+            "name": "Меню 2"
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 41,
+        "fields": {
+            "menu": 2,
+            "title": "Главный раздел A",
+            "url": "/m2_a",
+            "parent": null
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 42,
+        "fields": {
+            "menu": 2,
+            "title": "Главный раздел B",
+            "url": "/m2_b",
+            "parent": null
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 43,
+        "fields": {
+            "menu": 2,
+            "title": "Подраздел A.1",
+            "url": "/m2_a1",
+            "parent": 41
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 44,
+        "fields": {
+            "menu": 2,
+            "title": "Подраздел A.2",
+            "url": "/m2_a2",
+            "parent": 41
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 45,
+        "fields": {
+            "menu": 2,
+            "title": "Подраздел B.1",
+            "url": "/m2_b1",
+            "parent": 42
+        }
+    },
+    {
+        "model": "treemenu.menuitem",
+        "pk": 46,
+        "fields": {
+            "menu": 2,
+            "title": "Подраздел B.2",
+            "url": "/m2_b2",
+            "parent": 42
+        }
+    }
+]
