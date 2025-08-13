@@ -17,7 +17,7 @@ cd django-menu-tree
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+venv/Scripts/activate     # Windows
 ```
 3. Установка зависимостей
 ```bash 
@@ -39,7 +39,9 @@ python manage.py loaddata treemenu.json
 python manage.py createsuperuser
 ```
 
-7. Запустите сервер
+7. Запустите серве
 ```bash 
 python manage.py runserver
 ```
+8. Перейдите на сервер по адресу http://127.0.0.1:8000/
+>Для редактирования меню, перейдите по http://127.0.0.1:8000/admin/ и зайдите под суперпользователем
